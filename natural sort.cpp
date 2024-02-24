@@ -21,16 +21,6 @@ void merge(int arr[], int start, int mid, int end)
         right[i] = arr[mid+1 + i];
     }
 
-    // for(int i = 0; i < size1-1; i++)
-    // {
-    //     cout << left[i] << " ";
-    // }
-    // cout << endl;
-    // for(int i = 0; i < size2 - 1; i++)
-    // {
-    //     cout << right[i] << " ";
-    // }
-
     int i = 0, j = 0;
     for(int k = start; k <= end; k++)
     {
@@ -79,8 +69,6 @@ void print(int arr[], int size)
         cout << arr[i] << " ";
     }
 }
-
-
 
 int main()
 {
