@@ -53,6 +53,11 @@ void natural_sort(int arr[], int size)
     }
     edge[j] = size - 1; j++;
 
+    if(j == 1)
+    {
+        return;
+    }
+
     for(int i = 0; i < j; i++)
     {
         if(i+2 <= j)
